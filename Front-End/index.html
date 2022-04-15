@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intidin</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoUBYZTY5qE0Id1GSseTk65+L3BlXeVIU" crossorigin="anonymous"> -->
+    <script src="https://kit.fontawesome.com/5f4505bc08.js" crossorigin="anonymous"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Content -->
+    <div class="card mat-card" id="first-card">
+        <div id="profile-background"><img src="/Front-End/img/portadaLinkedIn.png" alt=""></div>
+        <div id="info" style="padding: 16px;">
+            <div id="info-img" class="d-flex justify-content-between">
+                <img class="profile-image" src="/Front-End/img/me.png" alt="">
+                <div class="btn-edit"><a href="#" class="btn-right"><i class="fa fa-pen"></i></a></div>
+            </div>
+            <div id="info-data" class="d-flex justify-content-between">
+                <div>
+                    <h1>Judith Grau</h1>
+                    <div id="info-company">Desarrolladora fullstack en Baris</div>
+                    <div id="info-contact">
+                        <span>Buenos Aires (Argentina) </span>
+                        <span><a href="#">Información de contacto</a></span>
+                    </div>
+                </div>
+                <ul id="info-details" class="mr-5">
+                    <li>
+                        <a href="#">
+                            <img style="width: 95px; height: 65px;" src="/Front-End/img/BarisLogo.png" alt="Baris Consulting">
+                            <h6>Baris Consulting</h6>
+                        </a>
+                    </li>
+                    <!-- <li>
+                        <a href="#">
+                            <img style="width: 60px; height: 60px;" src="/Front-End/img/CoderhouseLogo.png" alt="Coderhouse">
+                            <h6>Coderhouse</h6>
+                        </a>
+                    </li> -->
+                </ul>
+            </div>
+            <div id="info-actions">
+                <button type="button" class="btn btn-primary">Tengo interés en</button>
+                <button type="button" class="btn btn-light">Añadir Sección</button>
+                <button type="button" class="btn btn-light">Más</button>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="card mat-card">
+        <div class="card-titles d-flex justify-content-between">
+            <h2>Acerca de</h2>
+            <div class="btn-edit" onclick="cambiar_parrafo()">
+                <a href="#" class="btn-right">
+                    <i class="fa fa-pen"></i>
+                </a>
+            </div>
+        </div>
+        <div>
+            <p id="text-acercade">Me encuentro en la búsqueda de nuevos desafíos y con ganas de participar en proyectos que me permitan desarrollar los nuevos conocimientos y habilidades adquiridas.
+
+                Interesada en potenciar mi desarrollo profesional, para ello cuento con capacidad de aprendizaje, habilidad para el trabajo en equipo, perseverancia y creatividad. </p>
+        </div>
+        <div>
+            <input id="edit-acercade" type="text" oninput="myFunction2(this.value)" style="display: none;">
+        </div>
+    </div>
+    <!-- <input type="file" id="file1" onchange="showFile(this)"> -->
+
+    <div class="card mat-card">
+        <div class="card-titles d-flex justify-content-between">
+            <h2>Experiencia</h2>
+            <div class="btn-add" onclick="agregar_parrafo()">
+                <a href="#" class="btn-right">
+                    <i class="fa fa-plus"></i>
+                </a>
+            </div>
+        </div>
+        <ul style="list-style-type: none;">
+            <li>
+                <div>
+                    <div class="d-flex justify-content-between">
+                        <a href="#">
+                        <img style="width: 95px; height: 65px;" src="/Front-End/img/BarisLogo.png" alt="Baris Consulting">
+                        <h5>Baris Consulting</h5>
+                        </a>
+                        <div class="btn-edit" onclick="cambiar_parrafo()">
+                            <a href="#" class="btn-right">
+                                <i class="fa fa-pen"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h5>Desarrolladora fullstack</h5>
+                    <p id="text-acercade">Desarrolladora Web de la una empresa de Software Cloud de Gestión Comercial y CRM. </p>
+                </div>
+            </li>
+        </ul>
+        
+        <div>
+            <input id="edit-acercade" type="text" oninput="myFunction2(this.value)" style="display: none;">
+        </div>
+    </div>
+
+    <div class="card mat-card">
+        <div class="card-titles d-flex justify-content-between mb-5">
+            <h2>Educación y Certificaciones</h2>
+            <div class="btn-add" onclick="agregar_parrafo()">
+                <a href="#" class="btn-right">
+                    <i class="fa fa-plus"></i>
+                </a>
+            </div>
+        </div>
+        <ul style="list-style-type: none;">
+            <li>
+                <div>
+                    <div class="d-flex justify-content-between">
+                        <a href="#">
+                        <img style="width: 70px; height: 65px;" src="/Front-End/img/CoderhouseLogo.png" alt="Baris Consulting">
+                        <h5>Coderhouse</h5>
+                        </a>
+                        <div class="btn-edit" onclick="cambiar_parrafo()">
+                            <a href="#" class="btn-right">
+                                <i class="fa fa-pen"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h5>React, Programación informática, 10</h5>
+                    <p>julio 2021 - septiembre 2021</p>
+                    <ul>
+                        <li>Instalación y configuración del entorno (Creación de la App utilizando el CLI).</li> 
+                        <li>JSX & transpiling & Componentes I (Menú e-commerce).</li>
+                        <li>Componentes II & Promises, Asincronía y Map (Catálogo de productos).</li>
+                        <li>Consumo de APIs & Routing y Navegación (Detalle del producto).</li>
+                        <li>Eventos & Context (CartContext y sincronizar counter)</li>
+                        <li>Técnicas de rendering & Utilizando Firebase (Cart View e Item Collection)</li>
+                        <li>Firebase II (Item Collection II)</li>
+                    </ul>
+                </div>
+            </li>
+            <hr>
+            <li>
+                <div>
+                    <div class="d-flex justify-content-between">
+                        <a href="#">
+                        <img style="width: 70px; height: 65px;" src="/Front-End/img/CoderhouseLogo.png" alt="Baris Consulting">
+                        <h5>Coderhouse</h5>
+                        </a>
+                        <div class="btn-edit" onclick="cambiar_parrafo()">
+                            <a href="#" class="btn-right">
+                                <i class="fa fa-pen"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h5>JavaScript, Programación informática, 9</h5>
+                    <p>mayo 2021 - julio 2021</p>
+                    <ul>
+                        <li>En este curso aprendí los fundamentos del lenguaje de programación más usado en la actualidad, con el cual es posible crear aplicaciones de todo tipo.</li> 
+                        <li>Conocí las herramientas propias del mismo, indagando casos prácticos de aplicación.</li> 
+                        <li>Reconocí la utilidad de las librerías estudiando jQuery, y cómo aplicar técnicas de desarrollo para apps modernas con AJAX.</li>  
+                        <li>Al graduarme, estoy en condiciones de crear soluciones web interactivas, y trasladar los conocimientos del curso a cualquier framework JavaScript.</li>
+                    </ul>
+                </div>
+            </li>
+            <hr>
+            <li>
+                <div>
+                    <div class="d-flex justify-content-between">
+                        <a href="#">
+                        <img style="width: 70px; height: 65px;" src="/Front-End/img/CoderhouseLogo.png" alt="Baris Consulting">
+                        <h5>Coderhouse</h5>
+                        </a>
+                        <div class="btn-edit" onclick="cambiar_parrafo()">
+                            <a href="#" class="btn-right">
+                                <i class="fa fa-pen"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h5>Desarrollo Web, Programación informática, 10</h5>
+                    <p>febrero 2021 - mayo 2021</p>
+                    <ul>
+                        <li>Diseño de prototipos con conocimiento básicos de UX para una web.</li>
+                        <li>Creación y realización del mantenimiento de una página y aplicación web.</li> 
+                        <li>Asesoramiento a un cliente en lo que necesita.</li> 
+                        <li>Optimización de estilos de páginas web.</li> 
+                        <li>Trabajo en equipo, usando un controlador de versiones y manejo de repositorio.</li> 
+                        <li>Manejo de un servidor y configuración del dominio al que debe apuntar.</li> 
+                        <li>Adquisición de conocimientos básicos de SEO y Seguridad Web.</li> 
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        
+        <div>
+            <input id="edit-acercade" type="text" oninput="myFunction2(this.value)" style="display: none;">
+        </div>
+    </div>
+
+    <div class="card mat-card">
+        <div class="card-titles d-flex justify-content-between">
+            <h2>Aptitudes y Validaciones</h2>
+            <div class="btn-add" onclick="agregar_parrafo()">
+                <a href="#" class="btn-right">
+                    <i class="fa fa-plus"></i>
+                </a>
+            </div>
+        </div>
+        <ul style="list-style-type: none;">
+            <li>
+                <div>
+                    <div class="d-flex justify-content-between">
+                        <span style="visibility: hidden;"></span>
+                        <div class="btn-edit d-flex" onclick="cambiar_parrafo()">
+                            <a class="pr-5">Añadir una aptitud nueva</a>
+                            <a href="#" class="btn-right">
+                                <i class="fa fa-pen"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <span><b>HTML</b></span>
+                    <hr>
+                    <span><b>CSS</b></span>
+                    <hr>
+                    <span><b>JavaScript</b></span>
+                    <hr>
+                    <div class="text-center mt-3">
+                        <button type="button" class="btn btn-light">Mostrar más <i class="fa fa-angle-down"></i></button>
+                    </div>
+                    
+                </div>
+            </li>
+        </ul>
+        
+        <div>
+            <input id="edit-acercade" type="text" oninput="myFunction2(this.value)" style="display: none;">
+        </div>
+    </div>
+
+	<!-- <script src="js/main.js"></script> -->
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script>
+        //funcion que
+        //cambia el estilo del input a visible
+        //toma el valor del texto del parrafo con id "text-acercade"
+        //lo muestra en consola
+        function cambiar_parrafo(){
+            document.getElementById("edit-acercade").style.display="block";
+            let texto = document.getElementById("text-acercade").innerText;
+            console.log(texto);
+        };
+
+        function myFunction2(valor){
+            document.getElementById("text-acercade").innerText=valor;
+        };
+
+        function logMessage(message){
+            console.log(message + "<br>");
+        }
+        
+        //controla sise presiono un enter
+        let textarea=document.getElementById("edit-acercade")
+        textarea.addEventListener('keyup', (e) =>{
+            logMessage(`key "${e.key}" released [event: keyup]`);
+            if (e.key=="Enter"){
+                document.getElementById("edit-acercade").style.display="none"
+            }
+        });
+
+        //carga el contenido de un archivo de texto
+        //y lo muestra en el parrafo
+        function showFile(input) {
+            let file = input.files[0];
+            alert(`File name: ${file.name}`);
+            alert(`Last modified: ${file.lastModified}`);
+
+            let reader = new FileReader();
+            reader.readAsText(file);
+            reader.onload = function(){
+                console.log(reader.result);
+                document.getElementById("text-acercade").innerText=reader.result;
+            };
+            reader.onerror = function(){
+                console.log(reader.error);
+            };
+        } 
+        
+
+    </script>
+</body>
+</html>
