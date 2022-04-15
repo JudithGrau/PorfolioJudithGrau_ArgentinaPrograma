@@ -1,9 +1,9 @@
-# Proyecto final curso de FullStack -Argentina Programa #Yo Programo
-### Bienvenidos al repositorio de mi Porfolio WEb(Frontend y backend)!! 😉
-Este es el proyecto final del curso de **Programación FullStack** en **Aegentina Programa**.
+# Proyecto final del curso de Programación FullStack -Argentina Programa #Yo Programo
+### Bienvenidos al repositorio de mi Porfolio Web (Frontend y backend)!! 😉
+Este es el proyecto final del curso de **Programación FullStack** en **Argentina Programa**.
 
 ## Prototipo en Figma:
-<a href="https://www.figma.com/file/iJFOqUOQwPK0n165AsRbFw/Untitled?node-id=0%3A1" target="_blank">
+<a href="https://www.figma.com/file/iJFOqUOQwPK0n165AsRbFw/Untitled?node-id=0%3A1" target="_blank">Prototipo en Figma</a>
 
 ​
 ## Lenguajes y Herramientas utilizadas:
