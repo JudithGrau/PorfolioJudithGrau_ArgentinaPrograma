@@ -1,0 +1,42 @@
+.row{
+    border-radius: 32px;
+    margin: 0px 10px;
+    padding: 20px;
+    border-color: hsl(206deg 100% 73%);
+}
+div{
+    background-color: #e9ecef;
+    text-align: center;
+}
+#nombre{
+    font-weight: bold;
+    margin-top: 15%;
+}
+
+@media(min-width: 576px){
+    #fotoPerfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 50%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top: 290px;
+    }
+}
+@media(max-width: 575px){
+    #fotoPerfil{
+        position: absolute;
+        width: 27%;
+        border-radius: 50%;
+        box-shadow: 3px 3px 3px rgb(128, 128, 128);
+        left: 37%;
+        top: 192px;
+    }
+}
+.mat-card{
+    border-radius: 32px;
+    margin: 10px 10px;
+    padding: 20px;
+    border-color: hsl(206deg 100% 73%);
+}
+
