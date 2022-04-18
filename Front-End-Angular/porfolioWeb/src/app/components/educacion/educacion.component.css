@@ -26,5 +26,9 @@ ul{
     justify-content: flex-start;
     /* align-items: center; */
 }
-
+@media (max-width: 575px){
+    .educacion{
+        flex-direction: column;
+    }
+}
 

@@ -18,6 +18,11 @@ ul{
 #logoB{
     width: 100px;
 }
+@media (max-width: 575px){
+    .experiencia{
+        flex-direction: column;
+    }
+}
 
 
 
