@@ -15,10 +15,16 @@ h4, h5{
 ul{
     list-style: none;
 }
-#logoB{
+#logoAP{
     width: 100px;
+    background-color: hsl(206deg 100% 73%);
 }
-
-
+#logoCH{
+    width: 85px;
+}
+.logo_educacion{
+    justify-content: flex-start;
+    /* align-items: center; */
+}
 
 
