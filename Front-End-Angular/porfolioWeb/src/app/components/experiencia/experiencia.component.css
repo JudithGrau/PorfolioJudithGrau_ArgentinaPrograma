@@ -7,6 +7,12 @@ div{
 h4, h5{
     display: inline;
 }
+.title{
+    justify-content: space-between;
+}
+.btn{
+    margin: 3px;
+}
 .mat-card{
     border-radius: 32px;
     margin: 10px 10px;

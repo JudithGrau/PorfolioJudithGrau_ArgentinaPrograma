@@ -7,3 +7,9 @@
     padding: 20px;
     background-color: #e9ecef;
 }
+.title{
+    justify-content: space-between;
+}
+.btn{
+    margin: 3px;
+}

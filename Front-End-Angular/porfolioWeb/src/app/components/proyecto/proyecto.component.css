@@ -4,6 +4,12 @@
     padding: 20px;
     background-color: #e9ecef;
 }
+.title{
+    justify-content: space-between;
+}
+.btn{
+    margin: 3px;
+}
 .portfolio .icon-box {
     text-align: center;
     background: rgba(204, 204, 204, 0.31);

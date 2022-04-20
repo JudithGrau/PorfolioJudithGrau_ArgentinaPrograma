@@ -3,6 +3,7 @@
 }
 img{
     width: 45px;
+    margin: 5px;
 }
 .container{
     justify-content: space-between;

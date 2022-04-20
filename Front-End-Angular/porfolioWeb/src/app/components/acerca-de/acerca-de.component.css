@@ -8,6 +8,15 @@ div{
     background-color: #e9ecef;
     text-align: center;
 }
+.title{
+    flex-direction: column;
+}
+.hi{
+    
+}
+.btn{
+    margin: 3px;
+}
 #nombre{
     font-weight: bold;
     margin-top: 15%;

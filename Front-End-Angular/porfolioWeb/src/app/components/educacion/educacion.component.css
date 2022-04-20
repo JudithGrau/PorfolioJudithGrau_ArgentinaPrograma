@@ -12,6 +12,12 @@ h4, h5{
     margin: 10px 10px;
     padding: 20px;
 }
+.title{
+    justify-content: space-between;
+}
+.btn{
+    margin: 3px;
+}
 ul{
     list-style: none;
 }
