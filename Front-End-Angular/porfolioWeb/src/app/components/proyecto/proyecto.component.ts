@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faCode } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-proyecto',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./proyecto.component.css']
 })
 export class ProyectoComponent implements OnInit {
-
+  faCode = faCode;
   constructor() { }
 
   ngOnInit(): void {
