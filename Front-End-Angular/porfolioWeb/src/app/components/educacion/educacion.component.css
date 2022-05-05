@@ -24,6 +24,7 @@ ul{
 #logoAP{
     width: 100px;
     background-color: hsl(206deg 100% 73%);
+    margin: 10px;
 }
 #logoCH{
     width: 85px;
@@ -37,4 +38,26 @@ ul{
         flex-direction: column;
     }
 }
-
+.logo-image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.data-container {
+    border: rgb(179, 174, 174) 1px solid !important;
+    border-radius: 10px;
+}
+.cr{
+    display: flex !important;
+    align-items: baseline;
+}
+.mm {
+    margin-right: 10px;
+}
+.list-info {
+    display: flex;
+}
+.boton {
+    margin-left: 14em;
+}

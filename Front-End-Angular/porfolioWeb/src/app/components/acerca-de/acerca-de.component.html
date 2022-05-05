@@ -3,8 +3,8 @@
         <img src="../../../assets/img/me.png" class="img-fluid" id="fotoPerfil">
     </div>
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-        <p id="nombre">Judith Grau</p>
-        <p>Desarrolladora Web Full Stack Jr & Diseñadora Ux Jr</p>
+        <p class="lead" id="nombre">{{miPorfolio.name}}</p>
+        <p>{{miPorfolio.position}}</p>
     </div>
     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
         <div class="d-flex hi">
@@ -12,9 +12,9 @@
                 <div>
                     <h3>Acerca de mí</h3>
                 </div>
-                <p>Me encuentro en la búsqueda de nuevos desafíos y con ganas de participar en proyectos que me permitan desarrollar los nuevos conocimientos y habilidades adquiridas. Interesada en potenciar mi desarrollo profesional, para ello cuento con capacidad de aprendizaje, habilidad para el trabajo en equipo, perseverancia y creatividad.</p>
+                <p>{{miPorfolio.about}}</p>
             </div>
-            <div class="">
+            <div class="btn-edit">
                 <div type="button" class="btn btn-light"><a href=""><i class="fa fa-pencil"></i></a></div>
             </div>
             

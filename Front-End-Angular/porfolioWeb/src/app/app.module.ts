@@ -13,7 +13,8 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { ProyectoComponent } from './components/proyecto/proyecto.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-
+import { PorfolioService } from './services/porfolio.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -32,9 +33,10 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     BrowserModule,
     NgCircleProgressModule.forRoot({
     }),
-    FontAwesomeModule
+    FontAwesomeModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [PorfolioService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
