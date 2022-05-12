@@ -1,0 +1,35 @@
+.row{
+    padding: 20px;
+}
+div{
+    background-color: #e9ecef;
+}
+h4, h5{
+    display: inline;
+}
+.title{
+    justify-content: space-between;
+}
+.btn{
+    margin: 3px;
+}
+.mat-card{
+    border-radius: 32px;
+    margin: 10px 10px;
+    padding: 20px;
+}
+ul{
+    list-style: none;
+}
+#logoB{
+    width: 100px;
+}
+@media (max-width: 575px){
+    .experiencia{
+        flex-direction: column;
+    }
+}
+
+
+
+

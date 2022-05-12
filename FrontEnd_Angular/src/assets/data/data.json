@@ -1,0 +1,97 @@
+{
+    "name": "Judith Grau",
+    "backImage": "",
+    "image": "https://drive.google.com/file/d/1Qii0JeFKOLuwqjI2GPjaa6FI4bOAwlxH/view?usp=sharing",
+    "position": "Desarrolladora Web Full Stack Jr y Diseñadora Ux Jr",
+    "company": {
+        "name": "Baris Consulting",
+        "image": "https://drive.google.com/file/d/1Qii0JeFKOLuwqjI2GPjaa6FI4bOAwlxH/view?usp=sharing",
+        "url": "#"
+    },
+    "school": {
+        "name": "Coderhouse",
+        "image": "",
+        "url": "#"
+    },
+    "ubication": "Buenos Aires (Argentina)",
+    "about": "Me encuentro en la búsqueda de nuevos desafíos y con ganas de participar en proyectos que me permitan desarrollar los nuevos conocimientos y habilidades adquiridas. Interesada en potenciar mi desarrollo profesional, para ello cuento con capacidad de aprendizaje, habilidad para el trabajo en equipo, perseverancia y creatividad.",
+    "experience": [
+        {
+            "position": "FullStack Developer",
+            "company": "Baris Consulting",
+            "img": "",
+            "mode": "Jornada completa",
+            "start": "nov 2019",
+            "end": "may 2021",
+            "timeElapsed": "1 año y 4 meses"
+        }
+    ],
+    "education": [
+        {
+            "school": "Argentina Programa",
+            "title": "Desarrollo Web Full Stack",
+            "img": "https://argentinaprograma.inti.gob.ar/pluginfile.php/1/theme_moove/logo/1651541723/APLogo-20-20.png",
+            "career": "Sistemas Computacionales",
+            "description": ["Desarrollo de un Porfolio Web personal. Abarcando el Front End y Back End."],
+            "score": "-",
+            "start": "dic 2021",
+            "end": "mayo 2022"
+        },
+        {
+            "school": "Coderhouse",
+            "title": "React",
+            "img": "https://th.bing.com/th/id/OIP.BkuZVCSfxOdAsmEfhzdFLAHaHa?pid=ImgDet&rs=1",
+            "career": "Sistemas Computacionales",
+            "description": ["Instalación y configuración del entorno (Creación de la App utilizando el CLI), JSX & transpiling & Componentes I (Menú e-commerce), Componentes II & Promises, Asincronía y Map (Catálogo de productos), Consumo de APIs & Routing y Navegación (Detalle del producto), Eventos & Context (CartContext y sincronizar counter), Técnicas de rendering & Utilizando Firebase (Cart View e Item Collection), Firebase II (Item Collection II)."],
+            "score": "10",
+            "start": " julio 2021",
+            "end": "septiembre 2021"
+        },
+        {
+            "school": "Coderhouse",
+            "title": "JavaScript",
+            "img": "https://th.bing.com/th/id/OIP.BkuZVCSfxOdAsmEfhzdFLAHaHa?pid=ImgDet&rs=1",
+            "career": "Sistemas Computacionales",
+            "description": ["En este curso aprendí los fundamentos del lenguaje de programación más usado en la actualidad, con el cual es posible crear aplicaciones de todo tipo. Conocí las herramientas propias del mismo, indagando casos prácticos de aplicación. Reconocí la utilidad de las librerías estudiando jQuery, y cómo aplicar técnicas de desarrollo para apps modernas con AJAX. Al graduarme, estoy en condiciones de crear soluciones web interactivas, y trasladar los conocimientos del curso a cualquier framework JavaScript."],
+            "score": "9",
+            "start": "mayo 2021",
+            "end": "julio 2021"
+        },
+        {
+            "school": "Coderhouse",
+            "title": "Desarrollo web",
+            "img": "https://th.bing.com/th/id/OIP.BkuZVCSfxOdAsmEfhzdFLAHaHa?pid=ImgDet&rs=1",
+            "career": "Sistemas Computacionales",
+            "description": ["Diseño de prototipos con conocimiento básicos de UX para una web. Creación y realización del mantenimiento de una página y aplicación web. Asesoramiento a un cliente en lo que necesita. Optimización de estilos de páginas web. Trabajo en equipo, usando un controlador de versiones y manejo de repositorio. Manejo de un servidor y configuración del dominio al que debe apuntar. Adquisición de conocimientos básicos de SEO y Seguridad Web."] ,
+            "score": "10",
+            "start": "febrero 2021",
+            "end": "mayo 2021"
+        }
+    ],
+    "aptitudes": [
+        {
+            "name": "Coderhouse",
+            "progress": 75,
+            "confirms": 2,
+            "confirmsNames": [{
+                "name": "Nicolai Emanuel Bayro"
+            }]
+        },
+        {
+            "name": "Coderhouse",
+            "progress": 65,
+            "confirms": 3,
+            "confirmsNames": [{
+                "name": "Nicolai Emanuel Bayro"
+            }]
+        }
+    ],
+    "achivements": [
+        {
+            "name": "Tienda Anime"
+        },
+        {
+            "name": "I Donnas"
+        }
+    ]
+}

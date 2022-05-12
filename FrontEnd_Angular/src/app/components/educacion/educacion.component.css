@@ -1,0 +1,63 @@
+.row{
+    padding: 20px;
+}
+div{
+    background-color: #e9ecef;
+}
+h4, h5{
+    display: inline;
+}
+.mat-card{
+    border-radius: 32px;
+    margin: 10px 10px;
+    padding: 20px;
+}
+.title{
+    justify-content: space-between;
+}
+.btn{
+    margin: 3px;
+}
+ul{
+    list-style: none;
+}
+#logoAP{
+    width: 100px;
+    background-color: hsl(206deg 100% 73%);
+    margin: 10px;
+}
+#logoCH{
+    width: 85px;
+}
+.logo_educacion{
+    justify-content: flex-start;
+    /* align-items: center; */
+}
+@media (max-width: 575px){
+    .educacion{
+        flex-direction: column;
+    }
+}
+.logo-image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.data-container {
+    border: rgb(179, 174, 174) 1px solid !important;
+    border-radius: 10px;
+}
+.cr{
+    display: flex !important;
+    align-items: baseline;
+}
+.mm {
+    margin-right: 10px;
+}
+.list-info {
+    display: flex;
+}
+.boton {
+    margin-left: 14em;
+}
